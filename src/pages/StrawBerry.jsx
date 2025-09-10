@@ -37,7 +37,7 @@ const Strawberry = () => {
           <Options />
         </div>
        <div
-          className={`h-[88vh] flex items-baseline justify-end overflow-hidden w-[590px] mt-5 max-md:hidden transform transition-all duration-700 ease-out
+          className={`h-[100vh]  flex items-baseline justify-end overflow-hidden w-[590px] mt-5 max-md:hidden transform transition-all duration-700 ease-out
             ${showIceCream ? "translate-x-0 translate-y-0 opacity-100" : "translate-x-40 translate-y-40 opacity-0"}`}
         >  <img src={icecream1} alt="ice-cream" className="flex-1/4 h-[100vh]" />
         </div>

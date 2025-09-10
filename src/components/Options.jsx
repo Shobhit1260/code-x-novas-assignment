@@ -26,7 +26,7 @@ const Options = () => {
 
       </Link>
 
-      <span className=" w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
+      <span className=" w-[52%] max-xl:w-[43%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
 
         </div>
      
@@ -44,13 +44,13 @@ const Options = () => {
 
       </Link>
 
-      <span className="  w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
+      <span className="w-[52%] max-xl:w-[43%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
 
         </div>
 
         <div className="relative">
 
-           <Link
+        <Link
         to="/chocolate"
         className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[130px]  scale-120 max-md:scale-110  "
            >
@@ -59,11 +59,8 @@ const Options = () => {
           alt="ice-cream2"
           className="h-[20vh]  mt-12 scale-80 absolute -top-[1.2rem] z-40 transition-transform duration-500 ease-in-out rotate-[-15deg] hover:scale-110 hover:rotate-[15deg]"
         />
-
       </Link>
-
-      <span className="  w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
-
+      <span className="w-[52%] max-xl:w-[43%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
         </div>
         
         <div className="relative">
@@ -80,14 +77,9 @@ const Options = () => {
 
       </Link>
 
-      <span className="  w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
+      <span className="  w-[52%] max-xl:w-[43%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
 
         </div>
-
-
-        
-       
-
      </div>
 
 
