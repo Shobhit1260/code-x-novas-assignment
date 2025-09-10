@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import icecream4 from "../assets/Frame 4.png";
 import Options from "../components/Options";
 
 const EverGreen = () => {
+  const [showIceCream, setShowIceCream] = useState(false);
+
+  // Trigger animation on first render
+  useEffect(() => {
+    setTimeout(() => setShowIceCream(true), 100); // small delay for smooth effect
+  }, []);
   return (
     <div className="bg-gradient-to-br from-[#2A9949] to-[#47F66E] pt-12 max-md:pt-6 max-md:px-[18px] max-xl:px-[60px] max-lg:px-[40px] px-[126px] w-full flex flex-col">
       <Navbar />
       <div className="flex text-white poppins mt-5 max-md:mt-0 max-md:flex-col">
         <div className="flex flex-col flex-3/4 text-start max-md:w-[95%] max-md:mx-auto">
-          <h1 className="font-[400] text-[175px] pacifico w-fit text-center max-md:font-[300] max-md:text-[80px] max-xl:text-[160px] max-lg:text-[130px]">
+          <h1 className="font-[400] text-[175px] pacifico w-fit text-center max-md:font-[300] max-md:text-[80px] max-xl:text-[160px] max-lg:text-[130px] mb-8">
             icecream
           </h1>
-          <h4 className="font-[800] text-[66px] w-fit -mt-[3rem] max-md:text-[32px] max-md:font-[600] max-md:-mt-4 max-xl:text-[55px] max-lg:text-[45px]">
+          <h4 className="font-[800] text-[66px] w-fit -mt-[3rem] max-md:text-[32px] max-md:font-[600] max-md:-mt-4 max-xl:text-[55px] max-lg:text-[45px] mb-4">
             EverGreen cone
           </h4>
           <p className="font-[500] text-[19px] w-[88%] max-md:font-[300] max-md:w-[100%] max-md:leading-6 max-md:text-[16px] max-lg:font-[400] max-lg:text-[17px]">
@@ -31,8 +37,10 @@ const EverGreen = () => {
           </div>
           <Options />
         </div>
-        <div className="h-[88vh] flex items-baseline justify-end overflow-hidden w-[590px] mt-5 max-md:hidden">
-          <img src={icecream4} alt="ice-cream" className="flex-1/4 h-[100vh]" />
+        <div
+          className={`h-[88vh] flex items-baseline justify-end overflow-hidden w-[590px] mt-5 max-md:hidden transform transition-all duration-700 ease-out
+            ${showIceCream ? "translate-x-0 translate-y-0 opacity-100" : "translate-x-40 translate-y-40 opacity-0"}`}
+        >          <img src={icecream4} alt="ice-cream" className="flex-1/4 h-[100vh]" />
         </div>
       </div>
     </div>
