@@ -1,12 +1,98 @@
-# React + Vite
+# 🍦 Code-X-Novas - Ice Cream Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a **responsive landing page UI** for an ice cream-selling brand. Developed as part of a frontend assignment, the design was implemented based on a given **Figma prototype** using **React.js** and **Tailwind CSS**. The application structure is clean, modular, and ready for scaling into a full product site. Routing support is included to match modern frontend development standards.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [https://code-x-novas-assignment-pink.vercel.app](https://code-x-novas-assignment-pink.vercel.app/)
 
-## Expanding the ESLint configuration
+📁 **GitHub Repo:** [https://github.com/Shobhit1260/code-x-novas-assignment](https://github.com/Shobhit1260/code-x-novas-assignment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+- React.js
+- Tailwind CSS
+- React Router
+- Vite
+
+---
+
+## 🎨 Features
+- **Fully responsive** layout for mobile and desktop devices.
+- **Reusable components** for scalability.
+- **Clean folder structure** for easy development.
+- **Utility-first styling** with Tailwind CSS.
+
+---
+
+## 📸 Screenshots
+
+### 🔻 Landing Page Preview
+![Landing Page 1](./public/Screenshot1.jpg)
+![Landing Page 2](./public/Screenshot2.jpg)
+![Landing Page 3](./public/Screenshot3.jpg)
+![Landing Page 4](./public/Screenshot4.jpg)
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+├── pages/
+│   ├── Strawberry.jsx        # Landing page for strawberry flavor
+│   ├── Blueberry.jsx         # Landing page for blueberry flavor
+│   ├── Chocolate.jsx         # Landing page for chocolate flavor
+│   ├── Evergreen.jsx         # Landing page for evergreen flavor
+│   └── NotFound.jsx          # 404 fallback page
+│
+├── components/
+|   ├── Logo.jsx              # Logo of the landing page
+│   ├── Navbar.jsx            # Top navigation bar
+│   ├── Options.jsx           # Flavor selector or features section
+|   
+│
+├── assets/                  # Ice cream images.
+│                 
+│  
+│
+public/                 
+│   └── screenshots/          # Screenshots for README or showcase
+│
+.gitignore                    # Files and folders to ignore by Git
+eslint.config.js             # ESLint configuration file
+vite.config.js               # Vite project configuration
+README.md                    # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Shobhit1260/code-x-novas-assignment.git
+```
+
+```bash
+cd code-x-novas
+```
+
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment(Vercel)
+
+1. Push changes to GitHub.
+2. Link the GitHub repo to **Vercel**.
+3. Deploy and access the frontend live link.
