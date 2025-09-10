@@ -29,8 +29,6 @@ const Options = () => {
       <span className=" w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
 
         </div>
-
-
      
         <div className="relative">
 
@@ -50,7 +48,6 @@ const Options = () => {
 
         </div>
 
-        
         <div className="relative">
 
            <Link
@@ -68,8 +65,6 @@ const Options = () => {
       <span className="  w-[62%] max-xl:w-[53%]  max-sm:w-[55%] h-[30%] rounded-lg border absolute border-t-0  -bottom-1.5 left-[28px] max-xl:left-[35px] max-md:left-[24px] scale-[140%]"></span>
 
         </div>
-
-
         
         <div className="relative">
 
