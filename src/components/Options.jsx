@@ -16,7 +16,7 @@ const Options = () => {
 
         <Link
         to="/strawberry"
-        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[100px]  scale-120 max-md:scale-110  "
+        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[110px]  scale-120 max-md:scale-110  "
         >
         <img
           src={pic1}
@@ -34,7 +34,7 @@ const Options = () => {
 
         <Link
         to="/blueberry"
-        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[100px]  scale-120 max-md:scale-110  "
+        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[110px]  scale-120 max-md:scale-110  "
            >
         <img
           src={pic2}
@@ -52,7 +52,7 @@ const Options = () => {
 
         <Link
         to="/chocolate"
-        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[100px]  scale-120 max-md:scale-110  "
+        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[110px]  scale-120 max-md:scale-110  "
            >
         <img
           src={pic3}
@@ -67,7 +67,7 @@ const Options = () => {
 
       <Link
         to="/evergreen"
-        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[100px]  scale-120 max-md:scale-110  "
+        className=" h-[10vh] py-16 relative  z-10 flex overflow-hidden items-baseline justify-end  w-[110px]  scale-120 max-md:scale-110  "
         >
         <img
           src={pic4}
